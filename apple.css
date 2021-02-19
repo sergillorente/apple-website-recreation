@@ -1,5 +1,7 @@
 body {
+    margin: 0;
     background-color: #fff;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .menu {
@@ -12,7 +14,6 @@ body {
 
 .menu > li {
     color: #F5F5F7;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .logo {
@@ -21,11 +22,50 @@ body {
 }
 
 .magnifying-glass {
-    padding-top: 10px;
+    padding-top: 16px;
 }
 
 .shopping-cart {
     width: 25px;
     height: auto;
     padding-top: 12px;
+}
+
+.sub-menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    line-height: 15px;
+}
+
+.sub-menu-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 39%;
+    font-size: 13px;
+    padding: 5px 8px;
+}
+
+#product {
+    padding-left: 25px;
+    font-weight: unset;
+}
+
+#description {
+    color: gray;
+}
+
+#purchase-button {
+    border-radius: 13px;
+    background-color: rgb(24, 129, 193);
+    color: white;
+    font-size: 13px;
+    border: none;
+    padding: 2px;
+}
+
+.iPhone {
+    width: 60%;
+    height: auto;
 }
