@@ -1,9 +1,31 @@
 body {
     background-color: #fff;
 }
+
 .menu {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    background-color: gray;
+    background-color: rgba(57, 55, 55);
+    line-height: 50px;
+}
+
+.menu > li {
+    color: #F5F5F7;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.logo {
+    width: 16px;
+    height: auto;
+}
+
+.magnifying-glass {
+    padding-top: 10px;
+}
+
+.shopping-cart {
+    width: 25px;
+    height: auto;
+    padding-top: 12px;
 }
