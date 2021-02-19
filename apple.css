@@ -1,3 +1,9 @@
 body {
-    background-color: rgb(214, 214, 186);
+    background-color: #fff;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: gray;
 }
