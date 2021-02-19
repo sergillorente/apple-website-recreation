@@ -13,6 +13,10 @@ body {
 }
 
 .menu > li {
+    color: rgb(141, 144, 146);
+}
+
+.menu > li:hover {
     color: #F5F5F7;
 }
 
@@ -36,6 +40,9 @@ body {
     justify-content: space-between;
     border-bottom: 1px solid gray;
     line-height: 15px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
 }
 
 .sub-menu-list {
@@ -50,10 +57,16 @@ body {
 #product {
     padding-left: 25px;
     font-weight: unset;
+    font-size: 23px;
 }
 
 #description {
     color: gray;
+    padding: 5px;
+}
+
+#specifications {
+    padding: 5px;
 }
 
 #purchase-button {
@@ -62,10 +75,43 @@ body {
     color: white;
     font-size: 13px;
     border: none;
-    padding: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    letter-spacing: 0.5px;;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
 .iPhone {
-    width: 60%;
-    height: auto;
+    margin-top: 8%;
+}
+
+.sub-title {
+    margin-top: 3%;
+    margin-bottom: 0%;
+    font-size: 30px;
+}
+
+#main-title {
+    font-size: 48px;
+    width: 36%;
+}
+
+.text {
+    width: 52%;
+    font-size: 20px;
+}
+
+.second-text {
+    color: #86868B;
+    font-size: 15px;
+    font-weight: bold;
 }
